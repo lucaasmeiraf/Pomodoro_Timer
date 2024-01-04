@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../script/index.js" defer></script>
+    <title>-</title>
+</head>
+<body>
+    <progress id="js-progress" value="0"></progress>
+        
+        <div class="container">
+            <h1>POMODORO TIMER</h1>
+            <section class="content">
+            <div id="mode-buttons">
+                <button class="btn btn-pomodoro active" data-mode="pomodoro">Pomodoro</button>
+                <button class="btn btn-shortBreak" data-mode="shortBreak">Short Break</button>
+                <button class="btn btn-longBreak" data-mode="longBreak">Long Break</button>
+            </div>
+            <div class="timer">
+                <span id="minutes"></span>
+                <span>:</span>
+                <span id="seconds"></span>
+            </div>
+            <button class="btn btn-start" id="btn-start" data-action="start">START</button>
+            </section>
+        </div>
+
+</body>
+</html>
